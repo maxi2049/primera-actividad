@@ -24,6 +24,7 @@ section header{
     background-color:white;
     color: darkblue;
     padding: 2px;
+    font-style: italic;
 }
 
 .texto{
@@ -68,5 +69,29 @@ aside img{
 }
 
 .dropdown-item{
-    color: lightblue;
+    color: #999999;
+}
+
+.was-validated{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.card{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-md{
+    padding: 25px;
+}
+
+footer{
+    background-color: #f4f4f4;
+    font-style: oblique;
 }
