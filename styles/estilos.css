@@ -1,0 +1,159 @@
+img{
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.col-md-9{
+    border-right: groove;
+    border-right-width: 1.5px;
+    border-color: grey;
+    padding-right: 30px;
+}
+
+section header{
+    text-align: left;
+    background-color:white;
+    color: darkblue;
+    padding: 2px;
+    font-style: italic;
+}
+
+.texto{
+    text-align: justify;
+    text-decoration-style: wavy;
+}
+
+.linea-horizontal{
+    color: grey;
+    border-style: groove;
+    border-width: 1.5px;
+}
+
+.lateral{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.texto-lateral{
+    text-align: center;
+}
+
+aside header{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+aside img{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.nav-link{
+    color:lightblue;
+}
+
+.dropdown-item{
+    color: #999999;
+}
+
+
+
+.card{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-md{
+    padding: 25px;
+}
+
+.page-footer {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.page-footer .group-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.page-footer .group-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-footer .group-1 .box figure img {
+    width: 150px;
+}
+
+.page-footer .group-1 .box h2 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font: bolder;
+}
+
+.page-footer .group-1 .box p {
+    margin-bottom: 10px;
+}
+
+.page-footer .group-1 .social-media a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.page-footer .group-1 .social-media a:hover {
+    color: #007bff;
+}
+
+.page-footer .group-2 {
+    padding: 15px 10px;
+    text-align: center;
+    background-color: black;
+    color: #999999;
+}
+
+.page-footer .group-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .page-footer .group-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
